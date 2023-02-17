@@ -16,17 +16,17 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.scss */ \"./src/styles.scss\");\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scss/styles.scss */ \"./src/scss/styles.scss\");\n\n(function ($) {\n  $('.timeline-nav').slick({\n    slidesToShow: 12,\n    slidesToScroll: 1,\n    asNavFor: '.timeline-slider',\n    centerMode: false,\n    focusOnSelect: true,\n    mobileFirst: true,\n    arrows: false,\n    infinite: false,\n    responsive: [{\n      breakpoint: 768,\n      settings: {\n        slidesToShow: 8\n      }\n    }, {\n      breakpoint: 0,\n      settings: {\n        slidesToShow: 4,\n        slidesToScroll: 2\n      }\n    }]\n  });\n  $('.timeline-slider').slick({\n    accessibility: false,\n    slidesToShow: 1,\n    slidesToScroll: 1,\n    arrows: false,\n    asNavFor: '.timeline-nav',\n    centerMode: true,\n    cssEase: 'ease',\n    edgeFriction: 0.5,\n    mobileFirst: true,\n    speed: 500,\n    responsive: [{\n      breakpoint: 0,\n      settings: {\n        centerMode: false\n      }\n    }, {\n      breakpoint: 768,\n      settings: {\n        centerMode: true\n      }\n    }]\n  });\n})(jQuery);\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
-/***/ "./src/styles.scss":
-/*!*************************!*\
-  !*** ./src/styles.scss ***!
-  \*************************/
+/***/ "./src/scss/styles.scss":
+/*!******************************!*\
+  !*** ./src/scss/styles.scss ***!
+  \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack:///./src/styles.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack:///./src/scss/styles.scss?");
 
 /***/ })
 
